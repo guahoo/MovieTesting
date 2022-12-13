@@ -11,5 +11,4 @@ interface AppApi {
         @Query("type") type: String = "all",
         @Query("offset") offset: Int
     ): Response<RequestModel>
-
 }

@@ -19,15 +19,3 @@ class RepositoryModule {
     }
 
 }
-
-//val repositoryModule = module {
-//    fun provideCharRepository(
-//        api: AppApi
-//    ): MovieRepository {
-//        return MovieRepositoryImpl(api)
-//    }
-//
-//    single {
-//        provideCharRepository(get())
-//    }
-//}

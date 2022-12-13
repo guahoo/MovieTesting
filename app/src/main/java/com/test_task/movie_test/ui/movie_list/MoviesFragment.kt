@@ -34,6 +34,7 @@ class MoviesFragment : Fragment() {
 
     private val refreshListener = SwipeRefreshLayout.OnRefreshListener {
         viewModel.isRefreshing.postValue(true)
+        //test_comment feature
 
         Handler(Looper.getMainLooper()).postDelayed({
             viewModel.isRefreshing.postValue(false)
