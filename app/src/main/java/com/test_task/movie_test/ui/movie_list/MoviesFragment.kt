@@ -30,6 +30,7 @@ class MoviesFragment : Fragment() {
 
     private val viewModel: MovieViewModel by viewModels()
     private val movieAdapter = MovieAdapter()
+    //testFeachure2
 
 
     private val refreshListener = SwipeRefreshLayout.OnRefreshListener {
